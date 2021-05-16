@@ -1,6 +1,7 @@
 // Some code thanks to @chrisgannon
 
-var select = function(s) {
+window.onload = (event) => {
+  var select = function(s) {
   return document.querySelector(s);
 }
 
@@ -32,3 +33,4 @@ for(var i = 0; i < 20; i++){
 }
 
 tl.seek(50);
+};
